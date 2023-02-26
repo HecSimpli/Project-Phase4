@@ -4,7 +4,7 @@ export const sample_users: any[] = [
         password: "123",
     },
     {
-        name: "Rita",
+        userName: "Rita",
         password: "321",
 
     },
