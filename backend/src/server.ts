@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { sample_users } from "./data";
-// import { sample_users } from "./data";
+
 // import path from 'path';
 
 
@@ -19,7 +19,7 @@ app.use(cors({
 app.get("/api/users", (_req, res) => {
     res.send(sample_users);
 })
-// aqui  lo de nasr
+// aqui cambiar
 
 // app.post("/api/login", (req, res) => {
 //     const { userName, password } = req.body;
